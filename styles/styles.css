@@ -1,6 +1,7 @@
 body {
-    padding: 0 2%;
-    
+    padding: 0 10%;
+    background: #038C8C;    
+    font-family:Arial ;
 }
 
 h3 {
@@ -12,12 +13,43 @@ header {
     background-image: url("../images/website-background-templates.png");
     background-repeat: round no-repeat; 
     background-position: left center;
+    border: 2px solid #013440;
+    border-radius: 20px; 
+    padding-left: 10px;
     display: block;
 }
 
+footer {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+section {
+    
+    
+   
+}
+
+ul {
+    text-transform: uppercase;
+    font-size: small;
+}
+
+
+.styling {
+    background: #F2E3D5;
+    border: 2px solid #013440;
+    border-radius: 20px; 
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 200px;
+
+    
+}
+
 .profilePhoto{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
   
@@ -26,12 +58,21 @@ header {
 .columnsA{
     display: inline-block;
     padding-left: 50px;
-    padding-right: calc(60%);
+    padding-right: calc(45%);
 }
 
 .columnsB{
     display: inline-block;
     padding-left: 0px;
     padding-right: 0px ;
+}
+
+.highlight{
+    background: #FAEF9D;
+}
+
+.infoText {
+    font-size: smaller;
+    padding-left: 20px;
 }
 
